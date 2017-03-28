@@ -118,6 +118,11 @@ export interface IPanelProps extends React.Props<Panel> {
    * Custom renderer for content in the sticky footer
    */
   onRenderFooterContent?: IRenderFunction<IPanelProps>;
+
+  /**
+   * Custom content style
+   */
+  contentStyle?: React.CSSProperties;
 }
 
 export enum PanelType {

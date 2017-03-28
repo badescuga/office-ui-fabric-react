@@ -1,0 +1,15 @@
+{
+  "changes": [
+    {
+      "packageName": "office-ui-fabric-react",
+      "comment": "Panel: adding custom content style. ",
+      "type": "minor"
+    },
+    {
+      "packageName": "@uifabric/utilities",
+      "comment": "Panel: adding custom content style",
+      "type": "minor"
+    }
+  ],
+  "email": "gabade@microsoft.com"
+}

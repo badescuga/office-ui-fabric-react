@@ -98,6 +98,7 @@ export class Panel extends BaseComponent<IPanelProps, IPanelState> {
       children,
       className = '',
       closeButtonAriaLabel,
+      contentStyle,
       elementToFocusOnDismiss,
       firstFocusableSelector,
       forceFocusInsideTrap,
@@ -174,6 +175,7 @@ export class Panel extends BaseComponent<IPanelProps, IPanelState> {
                   [SLIDE_RIGHT_OUT_40]: isAnimatingClose && isOnRightSide
                 }
               ) }
+              style={ contentStyle }
               elementToFocusOnDismiss={ elementToFocusOnDismiss }
               isClickableOutsideFocusTrap={ isLightDismiss }
               ignoreExternalFocusing={ ignoreExternalFocusing }
